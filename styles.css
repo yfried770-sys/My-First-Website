@@ -1,0 +1,66 @@
+body {
+    margin:0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;
+}
+
+button{background-color: #3882f6;
+    color: white;
+}
+
+.image {width: 300px
+height: 150px;
+background-color: #d3d3d3;
+}
+
+.container {
+    color: #f9faf8;
+    font-family: Roboto;
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 48px;
+    font-weight: 900px;
+}
+.banner {
+background-color: #1f2937;
+margin: 0;
+padding: 30px;
+display: flex;
+flex-direction: column;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.rounded-corners {
+border-radius: 25px:
+height: 100px;
+width: 100px;
+border: 5px #3882f6;
+
+}
+.pics {
+    diplay: flex
+    flex-direction: row;}
+
+.img {
+    display: flex
+    flex-wrap: wrap;
+    width: 100px;
+}
