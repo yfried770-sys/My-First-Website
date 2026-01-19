@@ -1,10 +1,43 @@
+body {
+    margin:0;
+}
+
+ul {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;
+}
+
+button {background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+}
+
+b {text-align: right;}
+
+.image {width: 300px;
+height: 150px;
+background-color: #d3d3d3;
+}
+
 .container {
+    color: #f9faf8;
     font-family: Roboto;
     background-color: #1f2937;
     margin: 0;
 }
-.header {color:#f9faf8;
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header {
     display: flex;
+    flex: auto;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -16,4 +49,53 @@
 .banner {
 background-color: #1f2937;
 margin: 0;
+padding: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.empty-square {
+    border-radius: 15px;
+  width: 100px; 
+  height: 100px;
+  border: 2px solid #3882f6; 
+  background-color: transparent; 
+}
+
+.pics {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.quote {
+    padding: 80px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    background-color: #3882f6;
+    padding: 30px;
+    color: white;
+    margin: 50px;
+    flex-direction: row;
 }
