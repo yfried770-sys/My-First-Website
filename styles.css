@@ -4,21 +4,19 @@ body {
 
 ul {
     display: flex;
-    font-size: 18px;
-    color: #e5e7eb;
     flex-direction: row;
     list-style: none;
     gap: 16px;
 }
 
-button {background-color: #3882f6;
+button{background-color: #3882f6;
     color: white;
-    border-radius: 5px;
+}
+b {
+    text-align: center;
 }
 
-b {text-align: right;}
-
-.image {width: 300px;
+.image {width: 200px;
 height: 150px;
 background-color: #d3d3d3;
 }
@@ -28,16 +26,11 @@ background-color: #d3d3d3;
     font-family: Roboto;
     background-color: #1f2937;
     margin: 0;
-}
-
-.logo {
-    color: #f9faf8;
-    font-size: 24px;
+    padding: 5px;
 }
 
 .header {
     display: flex;
-    flex: auto;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -60,42 +53,47 @@ justify-content: center;
     width: 400px;
 }
 
-.empty-square {
-    border-radius: 15px;
-  width: 100px; 
-  height: 100px;
-  border: 2px solid #3882f6; 
-  background-color: transparent; 
+.rounded-corners {
+border-radius: 15px;
+width: 150px;
+height: 150px;
+border: 2px solid #3882f6;
 }
 
 .pics {
     display: flex;
     flex-direction: row;
-    gap: 20px;
     justify-content: center;
-    margin: 40px;
+    gap: 16px;
 }
 
 .img {
     display: flex;
     flex-wrap: wrap;
-    width: 100px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
 }
 
 .quote {
-    padding: 80px;
     background-color: #e5e7eb;
-    font-size: 36px;
-    font-weight: 300;
-    color: #1f2937;
+    padding: 50px;
+    align-content: center;
 }
 
-footer {
-    display: flex;
-    gap: 20px;
+.quote p {
+    width: 450px;
+}
+
+.action {
     background-color: #3882f6;
-    padding: 30px;
     color: white;
-    margin: 50px;
+    padding: 20px;
+    margin: 40px;
     flex-direction: row;
+}
+
+.container p {
+    text-align: center;
+
 }
